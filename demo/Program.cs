@@ -28,6 +28,6 @@ void MergePdf(string srcPath, string destFile)
     }
 }
 
-var srcPath = @"C:/Users/tienk/Downloads/dvcc/demo/pdf2/";
+var srcPath = @"C:/Users/tienk/Downloads/dvcc/demo/file";
 var destFile = @"C:/Users/tienk/Downloads/dvcc/demo/out.pdf";
 MergePdf(srcPath, destFile);
