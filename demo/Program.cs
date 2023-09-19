@@ -2,12 +2,6 @@
 using org.pdfclown.files;
 
 
-string[] filelst = {
-    "C:/Users/tienk/Downloads/dvcc/demo/pdf/pdf1.pdf",
-    "C:/Users/tienk/Downloads/dvcc/demo/pdf/pdf2.pdf"
-    };
-
-
 void MergePdf(string srcPath, string destFile)
 {
     var list = Directory.GetFiles(Path.GetFullPath(srcPath));
